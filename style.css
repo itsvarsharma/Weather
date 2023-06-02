@@ -22,6 +22,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: none;
 }
 .search input{
     border: 0;
@@ -38,10 +39,10 @@ body{
 .search button{
     border: 0;
     outline: 0;
-    background: #1d2121;
+    background: #1d212100;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     cursor: pointer;
 }
 .weather-icon{
